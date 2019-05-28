@@ -16,19 +16,52 @@ const Welcome = () => {
         We cordially invite you to bless the couple on the auspicious occasion of marriage
       </div>
       <div className="names">
-        <span className="prefix">Chi.La.Sow.</span> Lakshmi Venkata Raja Mounika
+        <span className="prefix">Chi.La.Sow.</span> Raja Mounika
         <div className="withHelper">
           with
         </div>
-        <span className="prefix">Chi</span> Naga Venkata Satya Bhavani Yaswanth Kumar
+        <span className="prefix">Chi</span> Yaswanth Kumar
+      </div>
+      <div className="smallHeading">
+        Sumuhurtham
+      </div>
+      <div className="helper">
+        Wednesday 19th June 2019 at 11:35pm IST
+      </div>
+      <div className="address">
+        <div className="smallHeading">
+          Address
+        </div>
+        {/* <img src="../static/location.png" className="locImg"/> */}
+        <div>
+          S Convention Hall, Near Nagaiah Hotel, R.T.C Workshop Road, Bhavanipuram, Vijayawada -12
+          <div style={{ marginTop: '10px'}}>
+            <a href="https://goo.gl/maps/FyAWBzfyA7VhDSDc6" target="_blank">Click here for venue location</a>
+          </div>
+        </div>
       </div>
       <div className="timer">
         <Timer />
       </div>
-      <div className="credit">
+      {/* <div className="credit">
         <a href="https://www.freepik.com/free-photos-vectors/heart">Heart vector created by freepik - www.freepik.com</a>
-      </div>
+      </div> */}
       <style jsx>{`
+        .address {
+          margin-top: 15px;
+          margin-bottom: 15px;
+          padding: 5px 25px;
+        }
+
+        .helper {
+          padding: 0px 25px;
+        }
+
+        .locImg {
+          width: 40px;
+          height: 40px;
+        }
+
         a {
           text-decoration: none;
           color: #000;
@@ -44,13 +77,20 @@ const Welcome = () => {
 
         .withHelper {
           font-size: 16px;
-          margin-top: 10px;
-          margin-bottom: 10px;
+          margin-top: 5px;
+          margin-bottom: 5px;
         }
 
         .names {
           font-family: 'Acme', sans-serif;
           font-size: 22px;
+        }
+
+        .smallHeading {
+          font-family: 'Acme', sans-serif;
+          font-size: 18px;
+          margin-top: 10px;
+          margin-bottom: 5px;
         }
 
         .prefix {
@@ -66,6 +106,7 @@ const Welcome = () => {
         .timer {
           font-size: 18px;
           margin-top: 25px;
+          margin-bottom: 15px;
         }
 
         .tailText {
@@ -79,6 +120,12 @@ const Welcome = () => {
           font-family: 'Acme', sans-serif;
           font-size: 40px;
           margin-bottom: 10px;
+        }
+
+        @media(max-width: 600px) {
+          .credit {
+            width: 100%;
+          }
         }
       `}</style>
     </>
