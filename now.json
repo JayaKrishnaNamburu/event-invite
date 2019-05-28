@@ -1,6 +1,7 @@
 {
     "name": "invite",
     "version": 2,
+    "alias": ["mounika-yaswanth.now.sh"],
     "builds": [
       {
         "src": "package.json",

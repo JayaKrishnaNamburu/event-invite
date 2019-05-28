@@ -19,9 +19,6 @@ const Home = () => {
       <div className="child">
         <Welcome />
       </div>
-      <div className="credit">
-        <a href="https://www.freepik.com/free-photos-vectors/heart">Heart vector created by freepik - www.freepik.com</a>
-      </div>
       <style jsx>{`
         .bodyWrapper {
           display: flex;
@@ -56,27 +53,12 @@ const Home = () => {
           to   { opacity: 1; }
         }
 
-        .credit {
-          display: none;
-          text-align: center;
-          position: absolute;
-          font-size: 14px;
-          bottom: 0px;
-          width: 50%;
-        }
-
         a {
           text-decoration: none;
           color: #000;
         }
 
         @media (max-width: 600px) {
-          .credit {
-            width: 85%;
-            display: block;
-            bottom: -275px;
-          }
-
           .bodyWrapper {
             display: flex;
             flex-wrap: wrap-reverse;
