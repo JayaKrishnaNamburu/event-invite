@@ -125,6 +125,7 @@ const Welcome = () => {
         @media(max-width: 600px) {
           .credit {
             width: 85%;
+            display: none;
           }
 
           .intro {
