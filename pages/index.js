@@ -11,7 +11,7 @@ const Home = () => {
         <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Lato&display=optional" rel="stylesheet"></link>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="We cordially invite you for the marraige in June 19th 2010 @11:35pm" />
+        <meta name="description" content="We cordially invite you for the marriage on June 19th 2010 @11:35pm" />
       </Head>
       <div className="imageWrapper">
         <img src="static/back.png" alt="background" className="bigImage"/>
