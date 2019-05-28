@@ -22,6 +22,7 @@ const Welcome = () => {
         </div>
         <span className="prefix">Chi</span> Yaswanth Kumar
       </div>
+      <div style={{ marginTop: '10px', marginBottom: '10px'}}></div>
       <div className="smallHeading">
         Sumuhurtham
       </div>
@@ -30,11 +31,11 @@ const Welcome = () => {
       </div>
       <div className="address">
         <div className="smallHeading">
-          Address
+          Venue
         </div>
         {/* <img src="../static/location.png" className="locImg"/> */}
         <div>
-          S Convention Hall, Near Nagaiah Hotel, R.T.C Workshop Road, Bhavanipuram,Vijayawada -12
+          <span style={{ fontWeight: 'bold' }}>S Convention Hall</span>, Near Nagaiah Hotel, R.T.C Workshop Road, Bhavanipuram,Vijayawada -12
           <div style={{ marginTop: '10px'}}>
             <a href="https://goo.gl/maps/FyAWBzfyA7VhDSDc6" target="_blank">Click here for venue location</a>
           </div>
@@ -63,7 +64,7 @@ const Welcome = () => {
         }
 
         a {
-          text-decoration: none;
+          text-decoration: underline;
           color: #000;
         }
 
