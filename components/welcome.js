@@ -34,7 +34,7 @@ const Welcome = () => {
         </div>
         {/* <img src="../static/location.png" className="locImg"/> */}
         <div>
-          S Convention Hall, Near Nagaiah Hotel, R.T.C Workshop Road, Bhavanipuram, Vijayawada -12
+          S Convention Hall, Near Nagaiah Hotel, R.T.C Workshop Road, Bhavanipuram,Vijayawada -12
           <div style={{ marginTop: '10px'}}>
             <a href="https://goo.gl/maps/FyAWBzfyA7VhDSDc6" target="_blank">Click here for venue location</a>
           </div>
@@ -43,9 +43,9 @@ const Welcome = () => {
       <div className="timer">
         <Timer />
       </div>
-      {/* <div className="credit">
+      <div className="credit">
         <a href="https://www.freepik.com/free-photos-vectors/heart">Heart vector created by freepik - www.freepik.com</a>
-      </div> */}
+      </div>
       <style jsx>{`
         .address {
           margin-top: 15px;
@@ -124,7 +124,12 @@ const Welcome = () => {
 
         @media(max-width: 600px) {
           .credit {
-            width: 100%;
+            width: 85%;
+          }
+
+          .intro {
+            margin: 15px 45px;
+            font-size: 18px;
           }
         }
       `}</style>

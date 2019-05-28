@@ -9,6 +9,7 @@ const Home = () => {
         <title>Namburu's Wedding Invitation</title>
         <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=optional" rel="stylesheet"></link>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="We cordially invite you for the marraige in June 19th 2010 @11:35pm" />
       </Head>
@@ -55,7 +56,8 @@ const Home = () => {
         @media (max-width: 600px) {
           .bodyWrapper {
             display: flex;
-            flex-wrap: wrap;
+            flex-wrap: wrap-reverse;
+            padding: 25px;
             height: 100%;
             margin: 0px;
             height: 100vh;
@@ -64,7 +66,7 @@ const Home = () => {
           }
 
           .imageWrapper {
-            flex: autp;
+            flex: auto;
           }
   
           .child {
@@ -87,6 +89,7 @@ const Home = () => {
           margin: 0px;
           height: 100%;
           background-color: #FFCA8A;
+          font-family: 'Lato', sans-serif;
         }
       `}</style>
     </div>
